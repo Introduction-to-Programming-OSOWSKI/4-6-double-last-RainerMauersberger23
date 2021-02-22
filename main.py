@@ -1,6 +1,7 @@
- 
-myList = [1,2,3,4,5]
- 
-myList.append(5)
+def doubleLast(x):
+   
+    x.append(x[len(x)-1])
+    return x
 
-print(myList)
+
+print(doubleLast(["cat", "dog", "pig", "bear", "bear"]))    
